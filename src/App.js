@@ -6,6 +6,7 @@ import Gallery from './pages/gallery/Gallery';
 import Contact from './pages/contact/Contact';
 import Plans from './pages/plans/Plans';
 import Trainers from './pages/trainers/Trainers';
+import NotFound from './pages/notFound/NotFound';
 
 import Navbar from './components/Navbar';
 
@@ -22,6 +23,7 @@ function App() {
         <Route path="plans" element={<Plans />} />
         <Route path="trainers" element={<Trainers />} />
         <Route path="contact" element={<Contact />} />
+        <Route path='*' element={<NotFound />} />
       </Routes>
     </>
   );

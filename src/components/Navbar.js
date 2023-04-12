@@ -16,7 +16,7 @@ const Navbar = () => {
         <nav>
             <div className="container nav__container">
                 <Link to="/" className='logo'>
-                    <img onClick={toggleMobileNav} src={Logo} alt="Nav Logo" />
+                    <img onClick={() => setMobileNavbarIsShowing(false)} src={Logo} alt="Nav Logo" />
                 </Link>
                 <ul className={`nav__links ${mobileNavbarIsShowing ? 'show__nav' : 'hide__nav'}`}>
                     <li>

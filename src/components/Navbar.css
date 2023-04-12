@@ -1,4 +1,5 @@
 nav {
+    position: fixed;
     height: 5rem;
     width: 100vw;
     background-color: var(--color-primary);
@@ -38,11 +39,11 @@ nav {
 
 .nav__links a:hover {
     color: var(--secondry-color);
-
 }
 
 .active-nav {
     position: relative;
+    color: var(--color-secondary);
 }
 
 .active-nav::after {

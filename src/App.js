@@ -7,6 +7,7 @@ import Contact from './pages/contact/Contact';
 import Plans from './pages/plans/Plans';
 import Trainers from './pages/trainers/Trainers';
 import NotFound from './pages/notFound/NotFound';
+import Footer from './components/Footer';
 
 import Navbar from './components/Navbar';
 
@@ -15,7 +16,7 @@ import Navbar from './components/Navbar';
 function App() {
   return (
     <>
-      <Navbar></Navbar>
+      <Navbar />
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="about" element={<About />} />
@@ -25,6 +26,7 @@ function App() {
         <Route path="contact" element={<Contact />} />
         <Route path='*' element={<NotFound />} />
       </Routes>
+      <Footer />
     </>
   );
 }

@@ -5,13 +5,13 @@
 }
 
 
-img {
+.values__left img {
     filter: saturate(0.25);
     transition: var(--transition);
     height: 100%;
 }
 
-img:hover {
+.values__left img:hover {
     filter: none;
 }
 
@@ -19,19 +19,19 @@ img:hover {
     margin: 1.5rem 0rem 5rem;
 }
 
-.values__wrapper{
+.values__wrapper {
     display: grid;
     grid-template-columns: 1fr 1fr;
     gap: 3.4rem 2.4rem;
 }
 
-.values__value{
+.values__value {
     padding-top: 3.5rem;
     text-align: left;
     position: relative;
 }
 
-.values__value span{
+.values__value span {
     position: absolute;
     top: -1.5rem;
 }

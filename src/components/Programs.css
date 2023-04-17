@@ -20,3 +20,18 @@
     background-color: var(--color-secondary);
     color: var(--color-gray-600);
 }
+
+
+
+@media screen and (max-width: 1024px) {
+    .programs__wrapper{
+        grid-template-columns: 1fr 1fr;
+    }
+}
+
+
+@media screen and (max-width:600px) {
+    .programs__wrapper{
+        grid-template-columns: 1fr;
+    }
+}

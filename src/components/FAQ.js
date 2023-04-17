@@ -12,7 +12,7 @@ const FAQ = (props) => {
         <div>
             <h4>{props.question}</h4>
             <button className='faq__icon'>
-                {answerIsShowed ? <AiOutlinePlus /> : <AiOutlineMinus />}
+                {answerIsShowed ? <AiOutlineMinus /> : <AiOutlinePlus />}
             </button>
         </div>
         {answerIsShowed && <p>{props.answer}</p>}

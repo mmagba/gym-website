@@ -35,3 +35,27 @@
     position: absolute;
     top: -1.5rem;
 }
+
+
+@media screen and (max-width: 1024px) {
+    .values__container {
+        grid-template-columns: 1fr;
+
+    }
+
+    .values__left img {
+        display: none;
+    }
+}
+
+
+@media screen and (max-width:600px) {
+    .values__wrapper{
+        grid-template-columns: 1fr;
+    }
+
+    .values__container {
+        gap: 0;
+
+    }
+}

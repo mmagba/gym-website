@@ -1,0 +1,15 @@
+.not-found {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.not-found__wrapper {
+    padding-top: 4rem;
+    padding-bottom: 5rem;
+    text-align: center;
+}
+
+.not-found__wrapper h1 {
+    margin: 2rem;
+}

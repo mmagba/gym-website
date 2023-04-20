@@ -10,7 +10,7 @@ footer {
 .footer__container {
     display: grid;
     grid-template-columns: 26rem 1fr 1fr 1fr;
-    gap: 6rem;
+    gap: 5rem;
     margin-inline: auto;
 }
 

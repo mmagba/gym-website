@@ -1,0 +1,58 @@
+.plans__container {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 3rem;
+    margin-inline: 2rem;
+}
+
+.plans__container p {
+    margin: 1rem;
+}
+
+.plans__container h4 {
+    margin-top: 2rem;
+}
+
+.plans__container h2 {
+    display: inline;
+    color: var(--color-gray-400);
+}
+
+.plans__container h1 {
+    display: inline;
+    color: var(--color-primary-variant);
+}
+
+.plans__container h3 {
+    margin: 0.8rem;
+}
+
+.plans__container small {
+    margin-bottom: 2rem;
+}
+
+.available {
+    color: var(--color-gray-100);
+}
+
+.unavailable {
+    color: gray;
+}
+
+.plans__container .btn {
+    cursor: pointer;
+    margin-top: 3rem;
+}
+
+@media screen and (max-width:1024px) {
+    .plans__container {
+        grid-template-columns: 1fr;
+    }
+}
+
+@media screen and (min-width:600px) and (max-width:1024px) {
+    .plans__container {
+        width: 70%;
+        margin-inline: auto;
+    }
+}

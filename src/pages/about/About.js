@@ -7,7 +7,7 @@ import './About.css';
 
 const About = () => {
     return <>
-        <Header image={HeaderImage} title={'About Us'} content={'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.'} />
+        <Header image={HeaderImage} title={'About Us'} content={'Discover our mission and story, and learn what sets us apart.'} />
 
         <section className="container about__section right-to-left">
             <img src={StoryImage} alt="" />

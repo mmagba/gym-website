@@ -1,0 +1,37 @@
+.trainers__container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    grid-template-rows: repeat(2, 1fr);
+    grid-gap: 20px;
+}
+
+.trainer {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+.trainer img{
+    border-radius: 0 2rem;
+}
+
+.trainer__socials {
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+}
+
+.trainer__socials svg {
+    color: white;
+}
+
+.trainer__socials a {
+    background-color: var(--color-gray-600);
+    padding: 0.8rem 0.8rem 0.5rem;
+    border-radius: 0.7rem;
+    transition: var(--transition);
+}
+
+.trainer:hover a {
+    background-color: var(--color-gray-500);
+}

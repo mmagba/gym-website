@@ -8,7 +8,7 @@ import './Contact.css'
 
 const Contact = () => {
     return <>
-        <Header title='Get In Touch' image={HeaderImage} content='Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.' />
+        <Header title='Get In Touch' image={HeaderImage} content="Get in touch with us and let's start your fitness journey today." />
         <section className='container contact__container'>
             <a href='https://google.com' target='_blank' rel='noreferrer noopener'>
                 <MdEmail />

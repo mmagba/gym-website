@@ -11,7 +11,7 @@ const Gallery = () => {
     }
 
     return <>
-        <Header image={HeaderImage} title='Our Gallery' content='Experience Fitness in Motion: Explore Our Gallery of Dynamic Workout Images and Inspire Your Fitness Journey Today!'></Header>
+        <Header image={HeaderImage} title='Our Gallery' content='Experience Fitness in Motion: Explore Our Gallery of Workout Images and Inspire Your Fitness Journey Today!'></Header>
         <section className='gallery'>
             <div className='container gallery__container'>
                 {
